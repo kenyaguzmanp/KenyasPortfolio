@@ -572,6 +572,10 @@ h3 {
    margin-top: 10px;
 }
 
+.contac{
+   background-size: 154%;
+    background-position-x: 50%;
+}
 
 
 
@@ -901,6 +905,10 @@ h3 {
     padding-top: 330px;
 }
 
+.contac{
+   background-size: 113%;
+    background-position-x: 50%;
+}
 
 
 }
@@ -1193,6 +1201,16 @@ h3 {
 
 #languageTitles{
    margin-top: 10px;
+}
+
+.about{
+    background-size: 90%;
+    background-position-x: 50%;
+}
+
+.contac{
+    background-size: 70%;
+    background-position-x: 50%;
 }
 
 
