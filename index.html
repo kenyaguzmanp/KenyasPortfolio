@@ -795,7 +795,8 @@
         <div class="about sect">
           <h3>About me</h3>
           <p id="texto-1" class="texto center">
-            Math, programming, languages and coffee. Strongly self-taught. Always willing to understand the world in order to model it.
+            Math, programming, languages and coffee. Strongly self-taught.
+            Always willing to understand the world in order to model it.
           </p>
           <div class="logosWrapp">
             <a id="svgLogosButton1" class="btnToSvgs">
@@ -1475,82 +1476,6 @@
 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-    <script>
-      $(document).ready(function() {
-        var svgFlag = true;
-        var svgPolygonWidth;
-        var svgPolygonHeight;
-        var svgPolygonLeft;
-        var svgPolygonTop;
-
-        function setDimentionsOfLinks() {
-          for (var i = 1; i <= 4; i++) {
-            svgPolygonWidth = $('#pol' + i)[0].getBoundingClientRect().width;
-            svgPolygonHeight = $('#pol' + i)[0].getBoundingClientRect().height;
-            svgPolygonLeft = $('#pol' + i)[0].getBoundingClientRect().left;
-            svgPolygonTop = $('#pol' + i)[0].getBoundingClientRect().top;
-
-            $('#link' + i).css('width', svgPolygonWidth + 'px');
-            $('#link' + i).css('height', svgPolygonHeight + 'px');
-            $('#link' + i).css('left', svgPolygonLeft + 'px');
-            $('#link' + i).css('top', svgPolygonTop + 'px');
-          }
-        }
-
-        setDimentionsOfLinks();
-
-        $(window).resize(function() {
-          setDimentionsOfLinks();
-        });
-
-        $('.btnToSvgs').on('click', function() {
-          var idSelected = $(this).attr('id');
-          console.log('id selected: ' + idSelected);
-          var sectionFromId = idSelected.slice(-1);
-          console.log('seccion a: ' + sectionFromId);
-          $('.svgs1, .svgs2, .svgs3').addClass('not-selected');
-          $('.svgs' + sectionFromId).removeClass('not-selected');
-          if (svgFlag) {
-            $('.ken-cont').addClass('not-selected');
-            svgFlag = false;
-          } else {
-            $('.svgs' + sectionFromId).addClass('not-selected');
-            $('.ken-cont').removeClass('not-selected');
-            svgFlag = true;
-          }
-        });
-
-        //links of navbar:
-
-        $('.navBotton').click(function() {
-          var idSelected = $(this).attr('id');
-          console.log('id selected: ' + idSelected);
-          var sectionFromId = idSelected.slice(-1);
-          console.log('seccion a: ' + sectionFromId);
-          $('html,body').animate(
-            {
-              scrollTop: $('#sec-' + sectionFromId).offset().top
-            },
-            'slow'
-          );
-        });
-
-        // clicks en botones del sierpinsky:
-
-        $('.btnToSection').click(function() {
-          var idSelected = $(this).attr('id');
-          console.log('id selected: ' + idSelected);
-          var sectionFromId = idSelected.slice(-1);
-          console.log('seccion a: ' + sectionFromId);
-          $('html,body').animate(
-            {
-              scrollTop: $('#sec-' + sectionFromId).offset().top
-            },
-            'slow'
-          );
-        });
-      });
-    </script>
+    <script type="module" src="index.js"></script>
   </body>
 </html>
