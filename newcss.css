@@ -915,7 +915,7 @@
     width: 30%;
     display: inline-block;
     float: left;
-    background-color: blue;
+    /* background-color: blue; */
   }
 
   #otherLink3,

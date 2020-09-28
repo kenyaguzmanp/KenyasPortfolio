@@ -1,0 +1,40 @@
+.navigationContainer {
+  display: flex;
+  background-color: var(--black);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  /* background-color: green; */
+}
+
+.navigationItemsContainer {
+  display: flex;
+}
+
+.navigationItem {
+  margin: 10px;
+  padding: 10px;
+  font-family: var(--fontRobotoConsended);
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--black);
+  transition: all 1s ease;
+}
+
+.navigationItem:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--yellow_01);
+}
+
+.navigationItem:focus {
+  color: var(--yellow_02);
+}
+
+.navigationItem:active {
+  color: var(--yellow_02);
+  border-color: var(--yellow_01);
+}

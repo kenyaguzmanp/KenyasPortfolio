@@ -4,10 +4,10 @@
     <title class="troika">Kenya's Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
+    <!-- <link
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
       rel="stylesheet"
-    />
+    /> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -25,25 +25,22 @@
       rel="stylesheet"
     />
     <link href="newcss.css" rel="stylesheet" />
+    <link href="global.css" rel="stylesheet" />
+    <link href="navigation-style.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/sharer.js/latest/sharer.min.js"></script>
   </head>
 
-  <body>
-    <div class="container-fluid">
-      <div class="container-fluid">
-        <ul class="nav nav-tabs navbar-fixed-top">
-          <li role="presentation">
-            <a class="navBotton" id="linkNav2" href="#">Portfolio</a>
-          </li>
-          <li role="presentation">
-            <a class="navBotton" id="linkNav1" href="#">About me</a>
-          </li>
-          <li role="presentation">
-            <a class="navBotton" id="linkNav3" href="#">Contact me</a>
-          </li>
-        </ul>
+  <header>
+    <div class="navigationContainer">
+      <div class="navigationItemsContainer">
+        <a class="navigationItem" id="linkNav2" href="#sec-2">Portfolio</a>
+        <a class="navigationItem" id="linkNav1" href="#sec-1">About me</a>
+        <a class="navigationItem" id="linkNav3" href="#sec-3">Contact me</a>
       </div>
+    </div>
+  </header>
 
+  <body>
       <!--            NEW SVG-->
       <svg
         version="1.1"
@@ -1362,7 +1359,10 @@
               ><img class="imagen" src="./images/GtsPage_2.png" alt="GTS"
             /></a>
             <a href="https://kenyaguzmanp.github.io/SimonGame/" target="_blank"
-              ><img class="imagen" src="./images/SimonGame_Page2.png" alt="SimonGame"
+              ><img
+                class="imagen"
+                src="./images/SimonGame_Page2.png"
+                alt="SimonGame"
             /></a>
             <a
               href="https://kenyaguzmanp.github.io/CalculatorFCC/"
@@ -1381,7 +1381,10 @@
                 alt="WikipediaViewer"
             /></a>
             <a href="https://kenyaguzmanp.github.io/TicTacToe/" target="_blank"
-              ><img class="imagen" src="./images/TicTacToePage.png" alt="TicTacToe"
+              ><img
+                class="imagen"
+                src="./images/TicTacToePage.png"
+                alt="TicTacToe"
             /></a>
             <a
               href="https://kenyaguzmanp.github.io/PomodoroClock/"

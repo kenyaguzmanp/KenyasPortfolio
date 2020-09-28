@@ -27,9 +27,9 @@ $(document).ready(function() {
 
   $('.btnToSvgs').on('click', function() {
     var idSelected = $(this).attr('id');
-    console.log('id selected: ' + idSelected);
+    // console.log('id selected: ' + idSelected);
     var sectionFromId = idSelected.slice(-1);
-    console.log('seccion a: ' + sectionFromId);
+    // console.log('seccion a: ' + sectionFromId);
     $('.svgs1, .svgs2, .svgs3').addClass('not-selected');
     $('.svgs' + sectionFromId).removeClass('not-selected');
     if (svgFlag) {
@@ -44,11 +44,11 @@ $(document).ready(function() {
 
   //links of navbar:
 
-  $('.navBotton').click(function() {
+  $('.navigationItem').click(function() {
     var idSelected = $(this).attr('id');
-    console.log('id selected: ' + idSelected);
+    // console.log('id selected: ' + idSelected);
     var sectionFromId = idSelected.slice(-1);
-    console.log('seccion a: ' + sectionFromId);
+    // console.log('seccion a: ' + sectionFromId);
     $('html,body').animate(
       {
         scrollTop: $('#sec-' + sectionFromId).offset().top
@@ -61,9 +61,9 @@ $(document).ready(function() {
 
   $('.btnToSection').click(function() {
     var idSelected = $(this).attr('id');
-    console.log('id selected: ' + idSelected);
+    // console.log('id selected: ' + idSelected);
     var sectionFromId = idSelected.slice(-1);
-    console.log('seccion a: ' + sectionFromId);
+    // console.log('seccion a: ' + sectionFromId);
     $('html,body').animate(
       {
         scrollTop: $('#sec-' + sectionFromId).offset().top

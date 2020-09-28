@@ -1,0 +1,25 @@
+:root {
+  /************************/
+  /*****          *********/
+  /*    GLOBAL VARIABLES  */
+  /*****          ********/
+  /************************/
+
+  /* font sizes */
+  --extraBigFontSize: 64px;
+  --bigFontSize: 36px;
+  --mediumFontSize: 28px;
+  --regularFontSize: 20px;
+  --smallFontSize: 16px;
+
+  /* colors */
+  --yellow_01: #e1bc55;
+  --yellow_02: #e6ba64;
+  --yellow_03: #c39e58;
+  --black: #000000;
+  --white: #ffffff;
+
+  /* fonts */
+  --fontRobotoConsended: 'Roboto Condensed', sans-serif;
+  --fontDancingScript: 'Dancing Script', cursive;
+}
