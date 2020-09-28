@@ -45,12 +45,12 @@ a {
   margin-bottom: 30px;
 }
 
-.about h3 {
-  margin-top: 10px;
+.paddingTop {
+  padding-top: 30px;
 }
 
-.about a:hover {
-  background-color: var(--yellow_01);
+.about h3 {
+  margin-top: 10px;
 }
 
 .btnToSection {
@@ -71,9 +71,29 @@ a {
 }
 
 .textContainer {
-  margin: auto;
-  width: 60%;
+  margin: auto; /* TODO: refactor this */
+  /* width: 60%; */
   padding: 10px;
+  max-width: 30%;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.btnToSvgs {
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--black);
+  padding: 5px;
+  font-weight: bolder;
+  margin: 5px;
+}
+
+.btnToSvgs:hover {
+  text-decoration: none;
+  background-color: var(--black);
+  border-style: solid;
+  border-width: thin;
+  border-color: var(--yellow_02);
 }
 
 .svgIcon {

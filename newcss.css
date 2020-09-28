@@ -6,15 +6,6 @@
     padding-top: 25px;
   }
 
-  #texto-1,
-  #texto-2,
-  #texto-3 {
-    /*    width: 30%;*/
-    width: 90%;
-    text-align: justify;
-    font-weight: 300;
-  }
-
   /* photo */
   #kenya-photo {
     display: none;
@@ -27,12 +18,6 @@
   .photoContainer,
   .svgs1 {
     padding: 20px;
-  }
-
-  .btn {
-    width: 1%;
-    font-size: 14px;
-    margin: 4px;
   }
 
   .portfolioImage {
@@ -48,58 +33,8 @@
     margin-bottom: 50px;
   }
 
-  #sec-1,
-  #sec-2,
-  #sec-3 {
-    padding-top: 30px;
-  }
-
-  #rLogo,
-  #javascriptLogo,
-  #jqueryLogo,
-  #postgresqlLogo,
-  #illustratorLogo,
-  #photoshopLogo,
-  #afterEffectsLogo,
-  #html5Logo,
-  #css3Logo,
-  #mysqlLogo,
-  #mapleLogo {
-    width: 30px;
-    height: 30px;
-  }
-
-  #matlabLogo {
-    width: 30px;
-    height: 30px;
-  }
-
   .fa {
     color: #c39e58;
-  }
-
-  .fa-html5,
-  .fa-css3 {
-    font-size: 30px;
-    color: #c39e58;
-  }
-
-  #svgLogosButton1,
-  #languageButton2,
-  #interestButton3 {
-    cursor: pointer;
-    color: white;
-    padding: 5px;
-    font-weight: bolder;
-  }
-  #svgLogosButton1:hover,
-  #languageButton2:hover,
-  #interestButton3:hover {
-    text-decoration: none;
-    background-color: black;
-    border-style: solid;
-    border-width: thin;
-    border-color: #e6ba64;
   }
 
   .svgs1 {
@@ -138,15 +73,6 @@
     padding-top: 25px;
   }
 
-  #texto-1,
-  #texto-2,
-  #texto-3 {
-    /*    width: 30%;*/
-    width: 44%;
-    text-align: justify;
-    font-weight: 300;
-  }
-
   /* photo */
   #kenya-photo {
     display: none;
@@ -159,12 +85,6 @@
   .photoContainer,
   .svgs1 {
     padding: 20px;
-  }
-
-  .btn {
-    width: 1%;
-    font-size: 14px;
-    margin: 4px;
   }
 
   .portfolioImage {
@@ -180,58 +100,8 @@
     margin-bottom: 300px;
   }
 
-  #sec-1,
-  #sec-2,
-  #sec-3 {
-    padding-top: 30px;
-  }
-
-  #rLogo,
-  #javascriptLogo,
-  #jqueryLogo,
-  #postgresqlLogo,
-  #illustratorLogo,
-  #photoshopLogo,
-  #afterEffectsLogo,
-  #html5Logo,
-  #css3Logo,
-  #mysqlLogo,
-  #mapleLogo {
-    width: 30px;
-    height: 30px;
-  }
-
-  #matlabLogo {
-    width: 30px;
-    height: 30px;
-  }
-
   .fa {
     color: #c39e58;
-  }
-
-  .fa-html5,
-  .fa-css3 {
-    font-size: 30px;
-    color: #c39e58;
-  }
-
-  #svgLogosButton1,
-  #languageButton2,
-  #interestButton3 {
-    cursor: pointer;
-    color: white;
-    padding: 5px;
-    font-weight: bolder;
-  }
-  #svgLogosButton1:hover,
-  #languageButton2:hover,
-  #interestButton3:hover {
-    text-decoration: none;
-    background-color: black;
-    border-style: solid;
-    border-width: thin;
-    border-color: #e6ba64;
   }
 
   .svgs1 {
@@ -272,14 +142,6 @@
     padding-top: 25px;
   }
 
-  #texto-1,
-  #texto-2,
-  #texto-3 {
-    width: 30%;
-    text-align: justify;
-    font-weight: 300;
-  }
-
   /* photo */
   #kenya-photo {
     /* width: 10%; */
@@ -300,12 +162,6 @@
     padding: 20px;
   }
 
-  .btn {
-    width: 1%;
-    font-size: 14px;
-    margin: 4px;
-  }
-
   .portfolioImage {
     margin: 5px;
     border-style: solid;
@@ -320,58 +176,8 @@
     margin-bottom: 300px;
   }
 
-  #sec-1,
-  #sec-2,
-  #sec-3 {
-    padding-top: 30px;
-  }
-
-  #rLogo,
-  #javascriptLogo,
-  #jqueryLogo,
-  #postgresqlLogo,
-  #illustratorLogo,
-  #photoshopLogo,
-  #afterEffectsLogo,
-  #html5Logo,
-  #css3Logo,
-  #mysqlLogo,
-  #mapleLogo {
-    width: 30px;
-    height: 30px;
-  }
-
-  #matlabLogo {
-    width: 30px;
-    height: 30px;
-  }
-
   .fa {
     color: #c39e58;
-  }
-
-  .fa-html5,
-  .fa-css3 {
-    font-size: 30px;
-    color: #c39e58;
-  }
-
-  #svgLogosButton1,
-  #languageButton2,
-  #interestButton3 {
-    cursor: pointer;
-    color: white;
-    padding: 5px;
-    font-weight: bolder;
-  }
-  #svgLogosButton1:hover,
-  #languageButton2:hover,
-  #interestButton3:hover {
-    text-decoration: none;
-    background-color: black;
-    border-style: solid;
-    border-width: thin;
-    border-color: #e6ba64;
   }
 
   .svgs1 {
@@ -387,15 +193,6 @@
 
   #languageTitles {
     margin-top: 10px;
-  }
-
-  #sectionSierpinsky {
-    width: 100%;
-    height: 800px;
-    background-image: url('sierspinsky_1.png');
-    background-size: 60%;
-    background-position: 50%;
-    background-repeat: no-repeat;
   }
 
   .contac {
@@ -433,14 +230,6 @@
     margin: 5px;
   }
 
-  #texto-1,
-  #texto-2,
-  #texto-3 {
-    width: 30%;
-    text-align: justify;
-    font-weight: 300;
-  }
-
   /* photo */
   #kenya-photo {
     /* width: 10%; */
@@ -462,12 +251,6 @@
     padding: 20px;
   }
 
-  .btn {
-    width: 1%;
-    font-size: 14px;
-    margin: 4px;
-  }
-
   .portfolioImage {
     margin: 5px;
     border-style: solid;
@@ -481,58 +264,8 @@
     margin-bottom: 300px;
   }
 
-  #sec-1,
-  #sec-2,
-  #sec-3 {
-    padding-top: 30px;
-  }
-
-  #rLogo,
-  #javascriptLogo,
-  #jqueryLogo,
-  #postgresqlLogo,
-  #illustratorLogo,
-  #photoshopLogo,
-  #afterEffectsLogo,
-  #html5Logo,
-  #css3Logo,
-  #mysqlLogo,
-  #mapleLogo {
-    width: 30px;
-    height: 30px;
-  }
-
-  #matlabLogo {
-    width: 30px;
-    height: 30px;
-  }
-
   .fa {
     color: #c39e58;
-  }
-
-  .fa-html5,
-  .fa-css3 {
-    font-size: 30px;
-    color: #c39e58;
-  }
-
-  #svgLogosButton1,
-  #languageButton2,
-  #interestButton3 {
-    cursor: pointer;
-    color: white;
-    padding: 5px;
-    font-weight: bolder;
-  }
-  #svgLogosButton1:hover,
-  #languageButton2:hover,
-  #interestButton3:hover {
-    text-decoration: none;
-    background-color: black;
-    border-style: solid;
-    border-width: thin;
-    border-color: #e6ba64;
   }
 
   .svgs1 {
