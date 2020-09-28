@@ -23,3 +23,7 @@
   --fontRobotoConsended: 'Roboto Condensed', sans-serif;
   --fontDancingScript: 'Dancing Script', cursive;
 }
+
+.btnToSection {
+  cursor: pointer;
+}

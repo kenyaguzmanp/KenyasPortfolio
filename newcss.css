@@ -172,30 +172,6 @@
     border-color: #e6ba64;
   }
 
-  #link1 {
-    /*    background-color: red;*/
-    position: absolute;
-    color: black;
-  }
-
-  #link4 {
-    /*    background-color: green;*/
-    position: absolute;
-    color: black;
-  }
-
-  #link3 {
-    /*    background-color: yellow;*/
-    position: absolute;
-    color: black;
-  }
-
-  #link2 {
-    /*    background-color: blue;*/
-    position: absolute;
-    color: black;
-  }
-
   .sect {
     margin-top: 5px;
     margin-bottom: 50px;
@@ -468,30 +444,6 @@
     border-width: thin;
     width: 75%;
     border-color: #e6ba64;
-  }
-
-  #link1 {
-    /*    background-color: red;*/
-    position: absolute;
-    color: black;
-  }
-
-  #link4 {
-    /*    background-color: green;*/
-    position: absolute;
-    color: black;
-  }
-
-  #link3 {
-    /*    background-color: yellow;*/
-    position: absolute;
-    color: black;
-  }
-
-  #link2 {
-    /*    background-color: blue;*/
-    position: absolute;
-    color: black;
   }
 
   .sect {
@@ -777,30 +729,6 @@
     /*    width: 25%;*/
     width: 40%;
     border-color: #e6ba64;
-  }
-
-  #link1 {
-    /*    background-color: red;*/
-    position: absolute;
-    color: black;
-  }
-
-  #link4 {
-    /*    background-color: green;*/
-    position: absolute;
-    color: black;
-  }
-
-  #link3 {
-    /*    background-color: yellow;*/
-    position: absolute;
-    color: black;
-  }
-
-  #link2 {
-    /*    background-color: blue;*/
-    position: absolute;
-    color: black;
   }
 
   .sect {
@@ -1118,30 +1046,6 @@
     border-width: thin;
     width: 25%;
     border-color: #e6ba64;
-  }
-
-  #link1 {
-    /*    background-color: red;*/
-    position: absolute;
-    color: black;
-  }
-
-  #link4 {
-    /*    background-color: green;*/
-    position: absolute;
-    color: black;
-  }
-
-  #link3 {
-    /*    background-color: yellow;*/
-    position: absolute;
-    color: black;
-  }
-
-  #link2 {
-    /*    background-color: blue;*/
-    position: absolute;
-    color: black;
   }
 
   .sect {
