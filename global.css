@@ -7,7 +7,7 @@
 
   /* font sizes */
   --extraBigFontSize: 64px;
-  --bigFontSize: 36px;
+  --bigFontSize: 53px;
   --mediumFontSize: 28px;
   --regularFontSize: 20px;
   --smallFontSize: 16px;
@@ -24,6 +24,124 @@
   --fontDancingScript: 'Dancing Script', cursive;
 }
 
+body {
+  text-align: center;
+  background-color: black;
+  color: var(--white);
+  font-family: var(--fontRobotoConsended);
+}
+
+h3 {
+  font-family: var(--fontDancingScript);
+  font-size: var(--bigFontSize);
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.marginBottom {
+  margin-bottom: 30px;
+}
+
+.about h3 {
+  margin-top: 10px;
+}
+
+.about a:hover {
+  background-color: var(--yellow_01);
+}
+
 .btnToSection {
   cursor: pointer;
 }
+
+.not-selected {
+  display: none;
+}
+
+#sierpinsky {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.textContainer {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+/* **************************************************************************************/
+/*   Animations
+/*    ************************************************************************************* */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes scalling {
+  0% {
+    transform: scale(0, 0);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.triangulo-grande-animate {
+  animation: fadeIn 1.5s ease-in;
+  animation: scalling 2s;
+  transform-origin: center center;
+  animation-fill-mode: forwards;
+}
+
+.triangulos-medianos-animate {
+  animation: fadeIn 1s ease-in 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.triangulos-pequenos-animate {
+  animation: fadeIn 1s ease-in 1.7s;
+  animation-fill-mode: forwards;
+}
+
+.triangulos-diminutos-animate {
+  animation: fadeIn 1s ease-in 2s;
+  animation-fill-mode: forwards;
+}
+
+.titulos-animate {
+  animation: fadeIn 1s ease-in 2s;
+  animation-fill-mode: forwards;
+}
+
+/* @media (min-width: 300px) and (max-width: 437px) {
+} */
+
+/* **************************************************************************************/
+/*   For medium celulars
+/*    ************************************************************************************* */
+/* @media (min-width: 437px) and (max-width: 700px) {
+} */
+
+/* **************************************************************************************/
+/*   For Tablet
+/*    ************************************************************************************* */
+/* @media (min-width: 700px) and (max-width: 992px) {
+} */
+
+/* **************************************************************************************/
+/*   For DESKTOP
+/*    ************************************************************************************* */
+/* @media only screen and (min-width: 992px) {
+} */

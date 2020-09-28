@@ -8,11 +8,11 @@ $(document).ready(function() {
     $('.svgs1, .svgs2, .svgs3').addClass('not-selected');
     $('.svgs' + sectionFromId).removeClass('not-selected');
     if (svgFlag) {
-      $('.ken-cont').addClass('not-selected');
+      $('.photoContainer').addClass('not-selected');
       svgFlag = false;
     } else {
       $('.svgs' + sectionFromId).addClass('not-selected');
-      $('.ken-cont').removeClass('not-selected');
+      $('.photoContainer').removeClass('not-selected');
       svgFlag = true;
     }
   });
