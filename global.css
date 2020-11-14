@@ -71,12 +71,23 @@ a {
 }
 
 .textContainer {
-  margin: auto; /* TODO: refactor this */
+  margin: auto;
   /* width: 60%; */
   padding: 10px;
-  max-width: 30%;
+  /* max-width: 30%; */
   text-align: justify;
   font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactTextContainer {
+  max-width: 100%;
+}
+
+.contac {
+  background-size: contain;
 }
 
 .btnToSvgs {
@@ -109,6 +120,10 @@ a {
 .skillsIcon {
   width: 30px;
   height: 30px;
+}
+
+.btn-social-icon {
+  margin: 20px;
 }
 
 /* **************************************************************************************/

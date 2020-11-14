@@ -38,7 +38,8 @@
   }
 
   .svgs1 {
-    background-color: black;
+    /* background-color: black; */
+    background-color: transparent;
     width: 138px;
     margin-right: auto;
     margin-left: auto;
@@ -50,6 +51,10 @@
 
   #languageTitles {
     margin-top: 10px;
+  }
+
+  .textContainer {
+    max-width: 100%;
   }
 }
 
@@ -105,7 +110,8 @@
   }
 
   .svgs1 {
-    background-color: black;
+    /* background-color: black; */
+    background-color: transparent;
     width: 138px;
     margin-right: auto;
     margin-left: auto;
@@ -123,6 +129,10 @@
     background-size: 154%;
     background-position-x: 50%;
   }
+
+  .textContainer {
+    max-width: 100%;
+  }
 }
 
 /* **************************************************************************************/
@@ -132,7 +142,8 @@
   .about,
   .contac {
     /* background-image: url(http://i68.tinypic.com/1zx1mdv.png); */
-    width: 70vw;
+    /* width: 70vw; */
+    width: 95vw;
     background-image: url(./big-out-line.svg);
     background-position: 50% 0%;
     background-repeat: no-repeat;
@@ -181,7 +192,8 @@
   }
 
   .svgs1 {
-    background-color: black;
+    /* background-color: black; */
+    background-color: transparent;
     width: 138px;
     margin-right: auto;
     margin-left: auto;
@@ -196,8 +208,13 @@
   }
 
   .contac {
-    background-size: 113%;
+    /* background-size: 113%; */
+    /* background-size: 84%; */
     background-position-x: 50%;
+  }
+
+  .textContainer {
+    max-width: 30%;
   }
 }
 
@@ -212,7 +229,7 @@
 
   .about,
   .contac {
-    width: 70vw;
+    /* width: 70vw; */ /* TODO: Testing */
     background-image: url(./big-out-line.svg);
     background-repeat: no-repeat;
     background-color: black;
@@ -269,7 +286,8 @@
   }
 
   .svgs1 {
-    background-color: black;
+    /* background-color: black; */
+    background-color: transparent;
     width: 138px;
     margin-right: auto;
     margin-left: auto;
@@ -291,5 +309,9 @@
   .contac {
     /* background-size: 70%; */
     background-position-x: 50%;
+  }
+
+  .textContainer {
+    max-width: 30%;
   }
 }
